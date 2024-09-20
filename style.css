@@ -7,6 +7,7 @@
 body {
   display: flex;
   flex-direction: column;
+  background-color: hsl(0, 100%, 100%);
 }
 
 .header {
@@ -16,12 +17,29 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   padding: 20px;
-  background-color: #ff7f3f;
-  color: #f6d860;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 3px;
+  color: #8fd129;
+  font-size: xx-large;
 }
 
 .list {
   display: flex;
   list-style-type: none;
-  gap: 15px;
+  border: 3px solid black;
+  gap: 20px;
+  padding: 10px;
+  background-color: #ed1c24;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-1 {
+  height: 25vh;
+  display: flex;
 }
