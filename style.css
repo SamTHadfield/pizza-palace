@@ -4,13 +4,24 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  padding: 30px;
+  padding: 20px;
   background-color: #ff7f3f;
   color: #f6d860;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
 }
