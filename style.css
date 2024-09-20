@@ -37,9 +37,5 @@ body {
 .main-container {
   display: flex;
   flex-direction: column;
-}
-
-.section-1 {
-  height: 25vh;
-  display: flex;
+  justify-content: space-evenly;
 }
